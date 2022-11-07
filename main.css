@@ -1,0 +1,92 @@
+body {
+    background-color: rgba(75, 55, 154, 255);
+    margin: 0;
+}
+main {
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+
+/*Aici incepe styleingul pentru prima parte a paginii 
+unde se afla header-ul, si titlul */
+.icon {
+    width: 30px;
+    height: 30px;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+#welcomePart {
+    background-image: url("images/welcomeScrenn.jpg");
+    background-color: rgba(165,82,197,255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#header {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    height: 100px;
+}
+#header div {
+    float: left;
+    clear: none;
+}
+#pageName {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#menuIconDiv {
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    right: 0px;
+}
+#title {
+    font-size: 5rem;
+    font-weight: 100;
+    margin-top: 0;
+}
+#slogan {
+    font-weight: 100;
+    margin-bottom: 0;
+}
+#titleCont {
+    padding-top: 5rem;
+}
+#contactBtn {
+    color: white;
+    background-color: transparent;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+/*aici pot sa mai adaug animatie pentru schimbarea culorii*/
+#contactBtn:hover {
+    background-image: linear-gradient(to left, rgba(169,84,199,255), rgba(50,38,162,255));
+    border: none;
+}
+/*Aici se termina styleingul pentru prima parte a paginii 
+unde se afla header-ul, si titlul */
+
+.imagesDecor {
+    width: auto;
+    height: 300px;
+}
